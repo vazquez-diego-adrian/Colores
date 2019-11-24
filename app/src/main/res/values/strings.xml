@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Colores</string>
+    <string name="mp">Menu Principal</string>
+    <string name="agrega">AGREGAR</string>
+    <string name="mostrar">MOSTRAR</string>
+    <string name="titulo">AGREGAR COLOR</string>
+    <string name="ingreso">INGRESAR COLOR</string>
+    <string name="menu">REGRESAR</string>
+    <string name="ingresar">INGRESAR</string>
+    <string name="titul">COLORES DISPONIBLES</string>
+    <string name="desarrollador">Acerca De</string>
+    <string name="titu">Aplicaciones Moviles</string>
+    <string name="d">Desarrollado Por:</string>
+    <string name="autor">VAZQUEZ DIEGO ADRIAN</string>
+    <string name="as">Asesor</string>
+    <string name="ase">VICTOR HUGO DE LA O MARTINEZ</string>
+    <string name="pro">ENTREGA DE PROYECTO, AGREGAR COLORES A TRAVES DE UN PLAIN TEXT Y EL RESULTADO MOSTRARLO EN UN SPINNER</string>
+    <string name="back">REGRESAR</string>
+</resources>

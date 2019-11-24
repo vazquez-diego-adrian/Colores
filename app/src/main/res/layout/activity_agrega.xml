@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mar"
+    tools:context=".AgregaActivity">
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="0dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#B7E29A0B"
+        android:fontFamily="serif"
+        android:onClick="menu"
+        android:text="@string/menu"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="0dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#B7ACCF11"
+        android:fontFamily="serif"
+        android:onClick="muestra"
+        android:text="@string/mostrar"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add" />
+
+    <Button
+        android:id="@+id/add"
+        android:layout_width="0dp"
+        android:layout_height="74dp"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#B7116BCF"
+        android:fontFamily="serif"
+        android:onClick="agregar"
+        android:text="@string/agrega"
+        android:textSize="24sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.719"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtInput" />
+
+    <EditText
+        android:id="@+id/txtInput"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="@string/ingreso"
+        android:inputType="textPersonName"
+        android:textColor="#FCF1EDED"
+        android:textColorHint="#F7C2B9B9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:fontFamily="serif"
+        android:text="@string/titulo"
+        android:textAlignment="center"
+        android:textColor="#FC5B05"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
